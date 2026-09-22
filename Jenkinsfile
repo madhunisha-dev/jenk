@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'python sum.py'
+                bat 'C:\Users\madhu\AppData\Local\Programs\Python\Python312\python.exe sum.py'
             }
         }
     }
